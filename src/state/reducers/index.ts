@@ -6,3 +6,5 @@ const reducers = combineReducers({
 })
 
 export default reducers
+
+export type BankState = ReturnType<typeof reducers> //determine reducer into a type for dispatch purpose
